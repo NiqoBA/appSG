@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Celeste fuerte como color secundario */
+:root {
+  --celeste: #0096c7;
+  --celeste-dark: #0077b6;
+  --celeste-light: #00b4d8;
+}
